@@ -99,6 +99,46 @@ let student2=[
         instagram:"https://instagram.com/_._palash?igshid=aW5ueXpiNDJob2J3",
         image:"/src/components/Student images/Palak.jpg",
     },
+    {
+        name:"Prakhar Tripathi",
+        email:"prakkhhaarr@gmail.com",
+        domain:"Oratory",
+        linkedin:"https://www.linkedin.com/in/prakhar-tripathi-03655a282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/prakkhharr_?igshid=OGQ5ZDc2ODk2ZA==",
+        image:"/src/components/Student images/Prakhar Tripathi.jpg",
+    },
+    {
+        name:"Priyanshu Srivastava",
+        email:"priyanshuyash0809@gmail.com",
+        domain:"Management",
+        linkedin:"https://www.linkedin.com/in/priyanshu-srivastava-41ba03257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/_priyanshu.sri_08?igshid=cDdhbnVrNXJhOGNp",
+        image:"/src/components/Student images/Priyanshu Srivastava.jpg",
+    },
+    {
+        name:"Raj Aryan",
+        email:"official.aryan101@gmail.com",
+        domain:"Web Development",
+        linkedin:"www.linkedin.com/in/raj-aryan001",
+        instagram:"https://www.instagram.com/raj_aryanx/",
+        image:"/src/components/Student images/Raj Aryan.jpg",
+    },
+    {
+        name:"Rupak Koushik",
+        email:"rupakkaushik2004@gmail.com",
+        domain:"Oratory",
+        linkedin:"www.linkedin.com/in/rupak-koushik-79686b297",
+        instagram:"https://www.instagram.com/x_rupak._/",
+        image:"/src/components/Student images/Rupak Koushik.jpg",
+    },
+    {
+        name:"Sahil Shrivastav",
+        email:"yashshrivastav2004@gmail.com",
+        domain:"Web Development",
+        linkedin:"https://www.linkedin.com/in/sahil-shrivastava-a300b525a/",
+        instagram:"https://www.instagram.com/yash_2004.ss/",
+        image:"/src/components/Student images/Sahil Shrivastava.jpg",
+    },
 ]
 
 let student3=[
