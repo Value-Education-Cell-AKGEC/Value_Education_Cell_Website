@@ -199,11 +199,35 @@ let student2=[
 
 let student3=[
         {
-            name:"Aseem Jain",
-            email:"jainaseem2004@gmail.com",
-            domain:"Web Development",
-            linkedin:"https://www.linkedin.com/in/aseem-jain-258608252/",
-            instagram:"https://www.instagram.com/aseem2847/",
-            image:"https://drive.google.com/open?id=1U3ykD3zQWYZf_bQVp0j9y9Rd1YclUVOw",
-        }
+            name:"Ankur Yadav",
+            email:"ankuryadav9978@gmail.com",
+            domain:"Art and Craft",
+            linkedin:"https://www.linkedin.com/in/ankur-yadav-085102255",
+            instagram:"https://instagram.com/ankur_19yadav?igshid=MTk0NTkyODZkYg==",
+            image:"/src/components/Student images/Ankur Yadav.jpg",
+        },
+        {
+            name:"Antriksh Bansal",
+            email:"antriksh16.b@gmail.com",
+            domain:"Oratory",
+            linkedin:"https://www.linkedin.com/in/%C3%A1ntriksh-bansal-0a0343232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:"https://instagram.com/antrikshhhh?igshid=YTQwZjQ0NmI0OA==",
+            image:"/src/components/Student images/Ántriksh Bansal.jpg",
+        },
+        {
+            name:"Aviral Pandey",
+            email:"hackthic@gmail.com",
+            domain:"Sales and Marketing",
+            linkedin:"https://www.linkedin.com/in/aviral-pandey-hackthic/",
+            instagram:"https://www.instagram.com/iaviral_pandey/",
+            image:"/src/components/Student images/Aviral Pandey.jpg",
+        },
+        {
+            name:"Palak Agarwal",
+            email:"palakagarwal304@gmail.com",
+            domain:"Oratory",
+            linkedin:"https://in.linkedin.com/in/palak-agarwal-4a932924a",
+            instagram:"https://instagram.com/palak.agarwalp?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr",
+            image:"/src/components/Student images/Palak Agarwal.jpg",
+        },
 ]
