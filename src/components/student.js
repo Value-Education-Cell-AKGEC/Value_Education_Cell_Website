@@ -171,6 +171,30 @@ let student2=[
         instagram:"https://instagram.com/_shreyayayaya._?igshid=MTFnb3dqZW5oZTdmNw==",
         image:"/src/components/Student images/Shreya Saxena.jpg",
     },
+    {
+        name:"Vaishnavi Varma",
+        email:"raginidisha2004@gmail.com",
+        domain:"Art and Craft",
+        linkedin:"https://www.linkedin.com/in/vaishnavi-varma-3ba307294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/vaishnavi_2004varma?igshid=MTMzZnNlaW1xOG9ibQ==",
+        image:"/src/components/Student images/Vaishnavi Varma.jpg",
+    },
+    {
+        name:"Vedanshi Agarwal",
+        email:"vedanshi27vishu@gmail.com",
+        domain:"Web Development",
+        linkedin:"www.linkedin.com/in/vedanshi-agarwal-a5b89425a",
+        instagram:"https://instagram.com/vedanshi27vishu?igshid=c3Q3dmk3ZG92c2hy",
+        image:"/src/components/Student images/Vedanshi Agarwal.jpg",
+    },
+    {
+        name:"Yash Srivastava",
+        email:"yashsrivastava819@gmail.com",
+        domain:"Web Development",
+        linkedin:"https://www.linkedin.com/in/yash-srivastava-509a32217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/thenameisyash_0808?utm_source=qr&igshid=OGIxMTE0OTdkZA==",
+        image:"/src/components/Student images/Yash Srivastava.jpg",
+    }
 ]
 
 let student3=[
