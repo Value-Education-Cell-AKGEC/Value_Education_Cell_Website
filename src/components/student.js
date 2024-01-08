@@ -230,4 +230,36 @@ let student3=[
             instagram:"https://instagram.com/palak.agarwalp?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr",
             image:"/src/components/Student images/Palak Agarwal.jpg",
         },
+        {
+            name:"Prachi Mogha",
+            email:"moghaprachi@gmail.com",
+            domain:"Photography",
+            linkedin:"https://www.linkedin.com/in/prachi-mogha-a55732227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:"https://instagram.com/prachi_mogha?igshid=MWlxNWdwOWU3bHRrdg==a",
+            image:"/src/components/Student images/Prachi Mogha.jpg",
+        },
+        {
+            name:"Prakhar Maurya",
+            email:"prakhar.myself@gmail.com",
+            domain:"Designing",
+            linkedin:"https://www.linkedin.com/in/prakharmauryas",
+            instagram:"https://www.instagram.com/in/prakharmauryas",
+            image:"/src/components/Student images/Prakhar Maurya.jpg",
+        },
+        {
+            name:"Rashi Jaiswal",
+            email:"rjaiz1820@gmail.com",
+            domain:"Art and Craft",
+            linkedin:"https://www.linkedin.com/in/rashi-jaiswal-064486247",
+            instagram:"Instagram.com/_jaiswal_rashi_",
+            image:"/src/components/Student images/Rashi Jaiswal.jpg",
+        },
+        {
+            name:"Siddharth Gupta",
+            email:"siddharthg627@gmail.com",
+            domain:"Photography",
+            linkedin:"https://www.linkedin.com/in/siddharth-gupta-585960245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram:"https://instagram.com/ig_kingslayer.sg?igshid=MXdoeGFhNGYxNDlyOQ==",
+            image:"/src/components/Student images/Siddharth Gupta.jpg",
+        }
 ]
