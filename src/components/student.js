@@ -67,6 +67,38 @@ let student2=[
         instagram:"https://www.instagram.com/harshpandey006/",
         image:"/src/components/Student images/Harsh Pandey.jpeg",
     },
+    {
+        name:"Harsh Verma",
+        email:"harshvermaofficial0@gmail.com",
+        domain:"Oratory",
+        linkedin:"https://www.linkedin.com/in/harsh-verma-494b38255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/leharshverma?igshid=NzZlODBkYWE4Ng==",
+        image:"/src/components/Student images/Harsh Verma.jpg",
+    },
+    {
+        name:"Harshit Pal",
+        email:"harshitobra19@gmail.com",
+        domain:"Management",
+        linkedin:"https://www.linkedin.com/in/harshit-pal-13b3b0276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/harshit_pal_19?utm_source=qr&igshid=MThlNWY1MzQwNA==",
+        image:"/src/components/Student images/Harshit pal.jpg",
+    },
+    {
+        name:"Malavika Mishra",
+        email:"malavikamishra89@gmail.com",
+        domain:"Oratory",
+        linkedin:"https://www.linkedin.com/in/malavika-mishra-57a445254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/mishramalavika?igshid=NzZlODBkYWE4Ng==",
+        image:"/src/components/Student images/Malavika Mishra.jpg",
+    },
+        {
+        name:"Palak",
+        email:"sharmamanik825@gmail.com",
+        domain:"Oratory",
+        linkedin:"https://www.linkedin.com/in/palak-sharma-a66942256",
+        instagram:"https://instagram.com/_._palash?igshid=aW5ueXpiNDJob2J3",
+        image:"/src/components/Student images/Palak.jpg",
+    },
 ]
 
 let student3=[
