@@ -139,6 +139,38 @@ let student2=[
         instagram:"https://www.instagram.com/yash_2004.ss/",
         image:"/src/components/Student images/Sahil Shrivastava.jpg",
     },
+    {
+        name:"Sarthak Singh",
+        email:"Sarthaksingh602@gmail.com",
+        domain:"Photography",
+        linkedin:"https://www.linkedin.com/in/sarthak-singh-015064271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/_.sarthaksingh._?igshid=ZXFqYjlhNjR0aG5l",
+        image:"/src/components/Student images/Sarthak Singh.jpg",
+    },
+    {
+        name:"Shivansh Tiwari",
+        email:"sachintiwari.edu@gmail.com",
+        domain:"Management",
+        linkedin:"https://www.linkedin.com/in/shivansh-tiwari-21166b272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/shivanshtiwari5740?igshid=YzAwZjE1ZTI0Zg==",
+        image:"/src/components/Student images/Shivansh Tiwari.jpg",
+    },
+    {
+        name:"Shreya Garg",
+        email:"shreyanrg2405@gmail.com",
+        domain:"Art and Craft",
+        linkedin:"https://www.linkedin.com/in/shreya-garg-a3b83b29b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://www.instagram.com/shreyagarg2410/?next=%2F#",
+        image:"/src/components/Student images/Shreya Garg.jpg",
+    },
+    {
+        name:"Shreya Saxena",
+        email:"shreyasaxena1203@gmail.com",
+        domain:"Sales and Marketing",
+        linkedin:"https://www.linkedin.com/in/shreya-saxena-2b5077252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/_shreyayayaya._?igshid=MTFnb3dqZW5oZTdmNw==",
+        image:"/src/components/Student images/Shreya Saxena.jpg",
+    },
 ]
 
 let student3=[
