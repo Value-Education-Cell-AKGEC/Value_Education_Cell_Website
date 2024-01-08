@@ -34,7 +34,39 @@ let student2=[
         linkedin:"https://www.linkedin.com/in/asmit-bhan-7769a6213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram:"https://www.instagram.com/abhi._.1522/",
         image:"/src/components/Student images/Asmit Bhan.jpg",
-    }
+    },
+    {
+        name:"Devang Saraswat",
+        email:"saraswatdevang18@gmail.com ",
+        domain:"Oratory",
+        linkedin:"https://www.linkedin.com/in/devang-saraswat-62316a1a7",
+        instagram:"https://instagram.com/devangsaraswat?igshid=NzZlODBkYWE4Ng==",
+        image:"/src/components/Student images/Devang Saraswat.jpg",
+    },
+    {
+        name:"Divyansh Verma",
+        email:"divyansh81155@gmail.com",
+        domain:"Photography",
+        linkedin:"https://www.linkedin.com/in/divyansh-verma-321287299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/me_divyanxh?igshid=OGQ5ZDc2ODk2ZA==",
+        image:"/src/components/Student images/Divyansh Verma.jpg",
+    },
+    {
+        name:"Durgendra Singh",
+        email:"singhdurgendra2003@gmail.com",
+        domain:"Web Development",
+        linkedin:"https://www.linkedin.com/in/durgendra-singh-3761b6277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://instagram.com/durgendra_11?utm_source=qr&igshid=eGxhMGhicTVmdG4=",
+        image:"/src/components/Student images/Durgendra Singh.jpg",
+    },
+    {
+        name:"Harsh Pandey",
+        email:"harshpandey86ai.r@gmail.com",
+        domain:"Web Development",
+        linkedin:"https://www.linkedin.com/in/harshpandey006?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://www.instagram.com/harshpandey006/",
+        image:"/src/components/Student images/Harsh Pandey.jpeg",
+    },
 ]
 
 let student3=[
