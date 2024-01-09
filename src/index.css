@@ -31,6 +31,11 @@
     color: var(--text-color);
     background-color: var(--background-color);
 }
+.container{
+    width: 100vw;
+    height: fit-content;
+    
+}
 .ig{
     height:fit-content;
     width: fit-content;
