@@ -11,7 +11,7 @@ export default function Member(props) {
                     <div class="links">
                         <a href={props.linkedin} target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
                         <a href={props.instagram}target="_blank"><i class="fa-brands fa-instagram" ></i></a>
-                        <a href={props.email} target="_blank"><i class="fa-solid fa-envelope" ></i></a>
+                        <a href={"mailto:"+props.email} target="_blank"><i class="fa-solid fa-envelope" ></i></a>
             
                     </div>
                 </div>
