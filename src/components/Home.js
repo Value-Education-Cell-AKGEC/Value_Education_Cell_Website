@@ -1,8 +1,13 @@
 import React from 'react'
 import homelogo from './images/water.png';
+import About from './About';
+import Domains from './Domains';
+import Transformations from './Transformations';
 
 export default function Home() {
   return (
+    <div>
+
     <div id="Home">
     <div className="info">
         <h1 id="astitva">सह अस्तित्व</h1>
@@ -17,5 +22,9 @@ export default function Home() {
         <img src={homelogo} alt="water"/>
     </div>
 </div>
+    <About></About>
+    <Domains></Domains>
+    <Transformations></Transformations>
+    </div>
   )
 }

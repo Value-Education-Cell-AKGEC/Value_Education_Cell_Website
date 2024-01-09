@@ -1,16 +1,41 @@
 import "./App.css";
-
-import About from "./components/About";
-import Activities from "./components/Activities";
 import Home from "./components/Home";
 import { useState,useEffect } from "react";
-import Domains from "./components/Domains";
-import Transformations from "./components/Transformations";
+import Activities from "./components/Activities";
+import Team from "./components/Team";
+import Contact from "./components/Contact";
 function App() {
     let animate=document.getElementById("animate");
     const [themeimage,setthemeimage]=useState(<i class="fa-solid fa-moon"></i>);
     const [theme,setTheme]=useState("lightmode");
     
+    const [selectHome,setHome]=useState(true);
+    const [selectActivities,setActivities]=useState(false);
+    const [selectTeam,setTeam]=useState(false);
+    const [selectContact,setContact]=useState(false);
+
+    function turnAllFalse(){
+      setActivities(false);
+      setHome(false);
+      setTeam(false);
+      setContact(false);
+    }
+    function homeHandler(){
+      turnAllFalse();
+      setHome(true);
+    }
+    function activitiesHandler(){
+      turnAllFalse();
+      setActivities(true);
+    }
+    function teamHandler(){
+      turnAllFalse();
+      setTeam(true);
+    }
+    function contactHandler(){
+      turnAllFalse();
+      selectContact(true)
+    } 
     function changetheme(){
       if(theme==="darkmode"){
         setTheme("lightmode");
@@ -30,18 +55,20 @@ function App() {
       <div className="header">
             <a className="logo" href="index.html"> </a>
             <div className="lnk">
-                <a className="ig home" href="#home">Home</a>
-                <a className="ig services" href="#service">Activities</a>
-                <a className="ig teams" href="#tem">Our Team</a>
-                <a className="ig teams" href="#tem">Contact Us</a>
+                <a className="ig home" onClick={homeHandler} href="#home">Home</a>
+                <a className="ig services" onClick={activitiesHandler} href="#service">Activities</a>
+                <a className="ig teams" onClick={teamHandler} href="#tem">Our Team</a>
+                <a className="ig teams" onClick={contactHandler} href="#tem">Contact Us</a>
             </div>
             <button className="themechangebtn" onClick={changetheme}>{themeimage}</button>
         </div>
+        <div className="container">
+          {selectHome && <Home></Home>}
+          {selectActivities && <Activities></Activities>}
+          {selectTeam && <Team></Team>}
+          {selectContact && <Contact></Contact>}
+        </div>
         
-        <Home></Home>
-        <About></About>
-        <Domains></Domains>
-        <Transformations></Transformations>
     </div>
   );
 }
