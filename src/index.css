@@ -441,3 +441,120 @@ i{
     text-align: center;
     font-size: 3rem;
 }
+
+
+
+.member{
+    height:250px;
+    width: 190px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    border: 2px solid #56344c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.memberimage{
+    width:100%;
+    height:100%;
+    
+    border-top-left-radius:8px ;
+    border-top-right-radius:8px ;
+    transition: .9s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.member:hover .memberimage{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f6f6;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.member:hover .line1{
+    margin: 0px;
+    position: static;
+    color: #56344C;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 19px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.member:hover .line2{
+    height: auto;
+    margin-bottom: 35px;
+
+}
+.member:hover .links{
+    height: auto;
+
+}
+.member:hover .memig{
+    border-radius: 50%;
+
+}
+
+
+.memig{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    
+}
+.links a i{
+    color: #666666;
+}
+.links a:hover i{
+    color: #000;
+    transform: scale(1.03);
+
+}
+.line1{
+    color: #56344C;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 19px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.line2{
+    font-size: 15px;
+    color: #845175;
+    line-height: 1;
+    margin-bottom: 35px;
+}
+.line1{
+    position: absolute;
+    color: #f9f6f6;
+    margin-top: 180px;
+}
+.line2, .links{
+    height: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+.team{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.thirdyr{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    gap:40px;
+    justify-content: center;
+}
