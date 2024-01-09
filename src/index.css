@@ -3,6 +3,34 @@
 @tailwind utilities;
 
 
+
+.lightmode{
+    --text-color:black;
+    --background-color:white;
+    --card-bg:#e2e2e8;
+    --btncolor: orange;
+}
+.darkmode{
+    --text-color:white;
+    --background-color:black;
+    --card-bg:#2d2d31;
+    --btncolor:rgb(238, 229, 103);
+
+}
+.darkmode .app .header .logo{
+    
+    background-image: url("./components/images/vecelldark.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
 .ig{
     height:fit-content;
     width: fit-content;
@@ -15,10 +43,11 @@
     font-size: 20px;
     box-sizing:content-box;
     line-height: 44px;
-    color: rgb(96, 98, 109);
+    color: var(--text-color);
     /* border-radius: 3px; */
-    transition: .1s;
-    border-bottom: 5px solid white;
+    background-color: inherit;
+    
+    border-bottom: 5px solid var(--background-color);
 }
 .header{
     position: fixed;
@@ -31,12 +60,12 @@
     padding-left: 20px ;
     padding-right: 40px ;
     align-items: center;
-    background-color:#fff;
+    background-color: var(--background-color);
 }
 .logo{
     width: 70px;
     height: 70px;
-    background-image: url(./images/vecell.jpg);
+    background-image: url(./components/images/vecell.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -44,11 +73,11 @@
 .lnk{
     display: flex;
     gap: 30px;
+    align-items: center;
+    background-color: none;
 }
 .ig:hover{
-    color: #63485b;
-    /* transform: scale(1.04); */
-    border-bottom: 4px solid #63485b;
+    color: var(--btncolor);
 }
 #Home{
 
@@ -64,7 +93,7 @@
     
 }
 
-..info{
+.info{
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -80,8 +109,9 @@
     align-items: center;
 }
 .slider img{
-    width: 500px;
-    height: 650px;
+    width: 490px;
+    height: 690px;
+    
     animation-name: updown;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -105,27 +135,27 @@
 .info h2{
     font-size: 2rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #63485b;
+    color: var(--text-color);
 }
 .subtitle{
     margin-top: 25px;
-    border-top: 2px solid rgb(137, 59, 59);
+    border-top: 2px solid var(--text-color);
     width:500px;
     height: 200px;
     font-size: 1.3rem;
-    color: rgb(137, 59, 59);
+    color: var(--text-color);
     padding-top: 10px;
 }
 
 .info button{
-    background-color: rgb(108, 164, 70);
+    background-color: var(--btncolor);
     cursor: pointer;
     border: 0px;
     padding: 15px;
     width: fit-content;
     height: fit-content;
     font-size: 1.3rem;
-    color:#fff;
+    color: var(--background-color);
     border-radius: 15px;
     margin-top:20px ;
     transition: 1s;
@@ -142,9 +172,12 @@
     padding-top: 0px;
     padding-bottom: 0px; 
     display: flex;
+    align-items: center;
+    gap: 20px;
     flex-wrap: wrap;
     padding-bottom: 40px;
-   
+    background-color: var(--btncolor);
+    color: black;
 }
 .word{
     width: 500px;
@@ -152,6 +185,8 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    background-color: var(--btncolor);
+    color: black;
 }
 .text{
     width: fit-content;
@@ -161,17 +196,20 @@
     font-weight: 540;
     font-size: 50px;
     line-height: 77px;
-    color: #140404;
+    background-color: var(--btncolor);
+    color: black;
 }
 p{
     text-align:justify;
     font-size:1.2rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    background-color: var(--btncolor);
+    color: black;
 }
 .points{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    background-color: var(--btncolor);
+    color: black;
     padding-left:2rem;
     font-size:1rem;
 }
@@ -184,6 +222,8 @@ p{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: var(--btncolor);
+    color: black;
 }
 .imges{
     width: 400px;
@@ -199,7 +239,7 @@ p{
     width:400px;
     height: 400px;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 1px solid var(--text-color);
     border-radius: 15px;
     position: absolute;
     
@@ -233,7 +273,7 @@ ul{
     height: 420px;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: var(--background-color);
     border-radius: 10px;
 }
 .card h1{
@@ -260,12 +300,139 @@ ul{
 .activities{
     width: 100vw;
     height: fit-content;
-    background-color: rgb(107,158,164);
+    background-color: var(--btncolor);
 }
 .headofactivity{
     width: 100%;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    color: #fff;
+    color: var(--background-color);
+}
+
+i{
+    margin-bottom:3px;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff00;
+    font-size: 18px;
+}
+
+.homepage{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.homeimage{
+    width:95%;
+    height: 600px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.domains{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    padding: 60px;
+    justify-content: center;
+    background-color: inherit;
+}
+
+.domain{
+    width:300px;
+    height: fit-content;
+    overflow: hidden;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 7px;
+    gap:5px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: 1px solid black;
+    box-shadow: 1px black;
+}
+.domain p{
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+.domain h1{
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+.domain img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.donainsclass{
+
+    width: 100vw;
+    height: fit-content;
+}
+
+.transformations{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.message{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    /* border: 1px solid black; */
+}
+.message img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.nameof h1{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 4px;
+}
+.nameof{
+    display: flex;
+    flex-direction: column;
+}
+.nameof p{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: .8rem;
+    line-height: 1.5rem;
+    padding-left: 15px;
+}
+.nameof h2{
+    text-align: end;
+    font-weight: bold;
+}
+
+.messages{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    padding: 60px;
+}
+
+.transformhead{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
 }
