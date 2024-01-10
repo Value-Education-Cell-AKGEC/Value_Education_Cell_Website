@@ -55,6 +55,9 @@ function App() {
     function makenavvisible(){
       setactive(!active);
     }
+    function makeunvisible(){
+      setactive(false);
+    }
 
     useEffect(()=>{
       document.body.className=theme;
@@ -72,7 +75,7 @@ function App() {
             <div className="navbtns">
             <button className="themechangebtn" onClick={changetheme}>{themeimage}</button>
             
-            <button className="themechangebtn menubtn"  onClick={makenavvisible} > <i  class="fa-solid fa-bars"></i></button>
+            <button className="themechangebtn menubtn" onBlur={makeunvisible}  onClick={makenavvisible} > <i  class="fa-solid fa-bars"></i></button>
 
             </div>
         </div>
