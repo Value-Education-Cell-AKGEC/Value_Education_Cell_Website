@@ -50,6 +50,12 @@ function App() {
         setthemeimage(<i class="fa-regular fa-sun"></i>);
       }
     }
+    let link = document.querySelector(".lnk")
+    const [active,setactive]=useState(false)
+    function makenavvisible(){
+      setactive(!active);
+    }
+
     useEffect(()=>{
       document.body.className=theme;
     },[theme]);
@@ -57,13 +63,18 @@ function App() {
     <div className="app">
       <div className="header">
             <a className="logo" href="index.html"> </a>
-            <div className="lnk">
+            <div className={`lnk linkss ${active ? 'active' : ""}` }>
                 <a className="ig" id="home" onClick={homeHandler} href="#home">Home</a>
                 <a className="ig" id="activity" onClick={activitiesHandler} href="#service">Activities</a>
                 <a className="ig" id="teams" onClick={teamHandler} href="#team">Our Team</a>
                 <a className="ig" id="contact" onClick={contactHandler} href="#contact">Contact Us</a>
             </div>
+            <div className="navbtns">
             <button className="themechangebtn" onClick={changetheme}>{themeimage}</button>
+            
+            <button className="themechangebtn menubtn"  onClick={makenavvisible} > <i  class="fa-solid fa-bars"></i></button>
+
+            </div>
         </div>
         <div className="container">
           {selectHome && <Home></Home>}

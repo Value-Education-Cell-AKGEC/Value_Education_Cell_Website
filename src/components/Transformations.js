@@ -3,29 +3,24 @@ import Message from './Message'
 export default function Transformations() {
     const data=[
         {
-            image:"https://media.istockphoto.com/id/1387792229/photo/microphone.jpg?s=612x612&w=0&k=20&c=u14iE4im20x3LnHyqKjvbLUndJhrL9ZJT_6PwrENNo8=",
-            name:"Oratory",
-            text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
+            image:"https://www.akgec.ac.in/wp-content/uploads/2020/09/BN_new.jpg",
+            name:"Mr. Bihari Nandan Pandey",
+            text:"Attending the level-1 workshops was a marvelous experience for me. I got all my questions answered, which I had in mind for years. I evaluated my life objectives with the help of the workshop’s course contents in a self-explorative manner"
         },
         {
-            image:"https://uploads-ssl.webflow.com/615af81f65d1ab72d2969269/62efdf9840dca733692cdd48_web%20dev%20basics.jpg",
-            name:"Web Development",
-            text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
+            image:"https://i1.rgstatic.net/ii/profile.image/11431281141891868-1681096902120_Q512/Parul-Verma-14.jpg",
+            name:"Dr. Parul Verma",
+            text:"As an individual now I have started living on the proposal given, like to verify my natural acceptance whenever I have to buy something whether it's a piece of furniture, new clothes or anything else and itgives me the feeling of prosperity with my limited but sufficient physical facilities."
         },
         {
-            image:"https://media.istockphoto.com/id/518185738/photo/child-drawing-top-view-artwork-workplace-with-creative-accessories.jpg?s=612x612&w=0&k=20&c=VquqIgnEQRvjku7UPht4ehNnFPMqmSKwwopUmMjC0kY=",
-            name:"Art and Craft",
-            text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
+            image:"https://www.akgec.ac.in/wp-content/uploads/2023/02/Dr.-Jitender-Chhabra-scaled.jpg",
+            name:"Mr. Jitendra Chhabra",
+            text:"I would not say that everything has got resolved after attending the workshop, and I do not make any mistakes now, but the realisation of wrongdoings comes quite promptly, due to which the recovery time in reaching back to the normal stage has substantially reduced. "
         },
         {
-            image:"https://images.news18.com/ibnlive/uploads/2021/08/sun-photo-16293134144x3.jpg",
-            name:"Photography",
-            text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
-        },
-        {
-            image:"https://frameboxx.in/upload/page/graphic-designing_542121x.jpg",
-            name:"Designing",
-            text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
+            image:"https://www.akgec.ac.in/wp-content/uploads/2020/01/shiwani-pp.jpg",
+            name:"Dr. Shiwani Singhal",
+            text:"Everyone used to listen to me earlier, but my decision was a command to them, and if someone didn’t listen to me, I used to feel unhappy. Now decision. We sit together and freely share our feelings and issues."
         }
     ]
   return (

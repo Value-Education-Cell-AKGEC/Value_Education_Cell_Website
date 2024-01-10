@@ -1,15 +1,11 @@
 import React from 'react'
-
+import aboutus from "./images/aboutus.jpeg"
 export default function About() {
    
   return (
     <div class="About">
             <div class="slides">
-                <button id="back">&lt;</button>
-                        <div class="imges">
-                            
-                        </div>
-                        <button id="front"> &gt;</button>
+                <img src={aboutus} className='imges'></img>
             </div>
             <div class="word">
                 <h1 class="text">About Us</h1>

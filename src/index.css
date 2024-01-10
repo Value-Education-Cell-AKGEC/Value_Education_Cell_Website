@@ -34,7 +34,7 @@
 .container{
     width: 100vw;
     height: fit-content;
-    
+    padding-top: 70px;
 }
 .ig{
     height:fit-content;
@@ -90,33 +90,32 @@
     width:100vw;
     height: 100vh;
     align-items: center;
-    
+    flex-wrap: wrap;
     padding: 60px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-top: -70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     box-sizing: border-box;
     
 }
 
 .info{
-    height: 350px;
-    width: 600px;
+    height: fit-content;
+    width: 500px;
     display: flex;
     flex-direction: column;
     gap:0px;
-    /* padding-bottom: 100px; */
+
 }
+
 .slider{
-    width: 600px;
-    height:700px;
+    width: 45%;
+    height:600px;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .slider img{
-    width: 490px;
-    height: 690px;
+    width: 100%;
+    height: 100%;
     
     animation-name: updown;
     animation-duration: 1s;
@@ -136,10 +135,10 @@
     width: fit-content;
     margin:0px;
     font-family: Inter;
-    font-size: 4rem;
+    font-size: 5vh;
 }
 .info h2{
-    font-size: 2rem;
+    font-size: 4.3vh;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--text-color);
 }
@@ -148,7 +147,8 @@
     border-top: 2px solid var(--text-color);
     width:100%;
     height: 200px;
-    font-size: 1.3rem;
+   
+    font-size: 2.7vh;
     color: var(--text-color);
     padding-top: 10px;
 }
@@ -375,6 +375,7 @@ i{
 .message img{
     width: 150px;
     height: 150px;
+    object-fit: contain;
     border-radius: 50%;
 }
 .nameof h1{
@@ -547,8 +548,10 @@ i{
     align-items: center;
 }
 .imges{
-    width: 400px;
+    width: 100%;
     height: 450px;
+    background-color: var(--btncolor);
+    object-fit: contain;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -618,4 +621,213 @@ i{
 .link{
     display: flex;
     gap:10px;
+}
+.navbtns{
+    display: flex;
+    gap:20px;
+}
+.menubtn{
+    width: 0px;
+    visibility: hidden;
+}
+
+@media( width <1100px) {
+
+    .linkss{
+        visibility: hidden;
+        position: absolute;
+    }
+    .active{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 50%;
+        height: fit-content;
+        background-color: var(--background-color);
+        right: 0px;
+        top: 0px;
+        z-index: -1;
+        margin-top: 70px;
+        border-bottom-right-radius:10px ;
+        border-bottom-left-radius:10px ;
+
+        border: 1px solid var(--text-color);
+        border-top:0px ;
+        visibility: visible;
+    }
+
+    .header{
+        display: flex;
+        width: 100vw;
+        height: fit-content;
+        padding-right: 20px;
+    }
+    #Home{
+        width: 100%;
+        height: fit-content;
+    }
+    .menubtn{
+        width: fit-content;
+        visibility: visible;
+    }
+    .info{
+        height: fit-content;
+    }
+    .info h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .info h2{
+        font-size: 20px;
+    }
+    .subtitle{
+        border-top:1px solid var(--text-color);
+        width: 90%;
+        height: fit-content;
+        font-size: 15px;
+    }
+    .info a{
+        padding: 5px;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+    .slider{
+        padding-top: 10px;
+        width:250px;
+        height: 250px;
+    }
+    .About{
+        justify-content: center;
+    }
+    .slides{
+        width: 90%;
+        height: 100px;
+        margin-top: 20px;
+    }
+    .imges{
+        height: 100px;
+    }
+    
+    .word{
+        width: 90%;
+
+    }
+    .word h1{
+        font-size: 25px;
+    }
+    .word p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .points{
+        padding-right: 20px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .donainsclass h1{
+        font-size: 25px;
+    }
+    .domain{
+        width: 160px;
+        height: 480px;
+    }
+    .card{
+        width: 160px;
+        height: 300px;
+    }
+    .domain h1{
+        font-size: 15px;
+    }
+    .card h1{
+        font-size: 10px;
+    }
+    .domain p, .card p{
+        font-size: 8px;
+        line-height: 14px;
+    }
+    .domains , .messages, .activity{
+        width: 100%;
+        height: fit-content;
+        gap: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .thirdyr{
+        gap: 10px;
+    }
+    .transformations h1, .team h1{
+        font-size: 20px;
+    }
+    .activities{
+        padding-top: 0px;
+    }
+    .message{
+        width: 170px;
+        height: fit-content;
+    }
+    .member{
+        width: 170px;
+        height: 250px;
+    }
+    
+    .message img{
+        width: 40px;
+        height: 40px;
+    }
+    .nameof h1{
+        font-size: 10px;
+    }
+    .nameof p{
+        font-size: 4px;
+        line-height: 6px;
+        padding-left: 3px;
+    }
+    .nameof h2{
+        font-size: 5px;
+    }
+    .thirdyr{
+        width: 100%;
+        gap:10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .team{
+        padding-top: 0px;
+    }
+   
+    .messages{
+        padding-top: 10px;
+    }
+    
+    .contactform{
+        width: 40%;
+        height:300px;
+        padding: 10px;
+    }
+    .contactform h1{
+        font-size: 15px;
+    }
+    .contactform input{
+        font-size: 10px;
+    }
+    
+    .contactform textarea{
+        font-size: 10px;
+    }
+    .contactdetails{
+        width: 40%;
+        height: 300px;
+        padding: 10px;
+        justify-content: center;
+        gap: 25px;
+    }
+    .contactdetails img{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+    .link{
+        display: flex;
+        gap:10px;
+    }
 }
