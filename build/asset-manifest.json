@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Value_Education_Cell_Website/static/css/main.707b221f.css",
-    "main.js": "/Value_Education_Cell_Website/static/js/main.0b309d3b.js",
+    "main.css": "/Value_Education_Cell_Website/static/css/main.8ce1259b.css",
+    "main.js": "/Value_Education_Cell_Website/static/js/main.d1db27fc.js",
     "static/media/Asmit_Bhan.jpg": "/Value_Education_Cell_Website/static/media/Asmit_Bhan.0037077b46470303cc17.jpg",
     "static/media/Devang_Saraswat.jpg": "/Value_Education_Cell_Website/static/media/Devang_Saraswat.f263adcfd9ef123f7407.jpg",
     "static/media/Sarthak_Singh.jpg": "/Value_Education_Cell_Website/static/media/Sarthak_Singh.02ba3421d4a591a8c795.jpg",
@@ -38,9 +38,11 @@
     "static/media/Sonvi_Chaudhary.jpg": "/Value_Education_Cell_Website/static/media/Sonvi_Chaudhary.e3d93b98a5d11da8ef16.jpg",
     "static/media/Prakhar_Maurya.jpg": "/Value_Education_Cell_Website/static/media/Prakhar_Maurya.77dca1c5f3a7aa9989ad.jpg",
     "static/media/Ankit_Pandey.jpg": "/Value_Education_Cell_Website/static/media/Ankit_Pandey.366f4174f3a25a36d0eb.jpg",
+    "static/media/Kartik_Ranaut.jpg": "/Value_Education_Cell_Website/static/media/Kartik_Ranaut.9841d50226106d0ac1ce.jpg",
     "static/media/Abhishek_Patel.jpg": "/Value_Education_Cell_Website/static/media/Abhishek_Patel.624cdcdaa0c005edf83f.jpg",
     "static/media/Vedanshi_Agarwal.jpg": "/Value_Education_Cell_Website/static/media/Vedanshi_Agarwal.a06c4a30fdd108e1d61e.jpg",
     "static/media/Divyansh_Verma.jpg": "/Value_Education_Cell_Website/static/media/Divyansh_Verma.7542d70139f6bcb625e3.jpg",
+    "static/media/Aseem_Jain.jpg": "/Value_Education_Cell_Website/static/media/Aseem_Jain.b0f69e0ba3bfc4cc873f.jpg",
     "static/media/vecelldark.jpg": "/Value_Education_Cell_Website/static/media/vecelldark.e8cad64b5dcdcc1b4ed7.jpg",
     "static/media/Palak_Agarwal.jpg": "/Value_Education_Cell_Website/static/media/Palak_Agarwal.f2ad26f05485d006f664.jpg",
     "static/media/Swati_Saxena.jpg": "/Value_Education_Cell_Website/static/media/Swati_Saxena.97d7146f0da8f1148c0c.jpg",
@@ -54,11 +56,11 @@
     "static/media/Harsh_Pandey.jpeg": "/Value_Education_Cell_Website/static/media/Harsh_Pandey.c0e74dc7b93ffe22a2cd.jpeg",
     "static/media/Tushar_Jadaun.jpg": "/Value_Education_Cell_Website/static/media/Tushar_Jadaun.1ab473a9785295fe96f1.jpg",
     "index.html": "/Value_Education_Cell_Website/index.html",
-    "main.707b221f.css.map": "/Value_Education_Cell_Website/static/css/main.707b221f.css.map",
-    "main.0b309d3b.js.map": "/Value_Education_Cell_Website/static/js/main.0b309d3b.js.map"
+    "main.8ce1259b.css.map": "/Value_Education_Cell_Website/static/css/main.8ce1259b.css.map",
+    "main.d1db27fc.js.map": "/Value_Education_Cell_Website/static/js/main.d1db27fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.707b221f.css",
-    "static/js/main.0b309d3b.js"
+    "static/css/main.8ce1259b.css",
+    "static/js/main.d1db27fc.js"
   ]
 }
