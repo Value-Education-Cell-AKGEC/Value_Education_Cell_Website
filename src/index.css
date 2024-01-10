@@ -240,7 +240,7 @@ ul{
     height: 420px;
     padding: 20px;
     box-sizing: border-box;
-    background-color: greenyellow;
+    background-color: var(--text-color);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -249,15 +249,15 @@ ul{
 .card h1{
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: greenyellow;
-    color: black;
+    background-color: var(--text-color);
+    color: var(--background-color);
 }
 
 .card p{
     text-align: justify;
     font-size: small;
-    background-color: greenyellow;
-    line-height: 20px;
+    background-color: var(--text-color);
+    color: var(--background-color);
 }
 .card img{
     border-radius: 10px;

@@ -17,7 +17,7 @@ let data =[
     },
     {
         id:3,
-        name:"Sharamdann",
+        name:"Shramdaan",
         color:"pink",
         image:"https://media.istockphoto.com/id/1201112520/photo/planting-tree-in-garden-concept-save-world-green-earth.jpg?s=612x612&w=0&k=20&c=nYvD6suoUax7iOhi8vxc5X-oHtS5C2Ifu6x9LWrrdgg=",
         text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
@@ -31,7 +31,7 @@ let data =[
     },
     {
         id:5,
-        name:"Smridhi Pravah",
+        name:"Samriddhi Pravaah",
         color:"red",
         image:"https://img.freepik.com/free-photo/donate-sign-charity-campaign_53876-127165.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704758400&semt=sph",
         text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
