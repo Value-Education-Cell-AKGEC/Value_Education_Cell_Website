@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Value_Education_Cell_Website/static/css/main.8ce1259b.css",
+    "main.css": "/Value_Education_Cell_Website/static/css/main.a636670a.css",
     "main.js": "/Value_Education_Cell_Website/static/js/main.d1db27fc.js",
     "static/media/Asmit_Bhan.jpg": "/Value_Education_Cell_Website/static/media/Asmit_Bhan.0037077b46470303cc17.jpg",
     "static/media/Devang_Saraswat.jpg": "/Value_Education_Cell_Website/static/media/Devang_Saraswat.f263adcfd9ef123f7407.jpg",
@@ -56,11 +56,11 @@
     "static/media/Harsh_Pandey.jpeg": "/Value_Education_Cell_Website/static/media/Harsh_Pandey.c0e74dc7b93ffe22a2cd.jpeg",
     "static/media/Tushar_Jadaun.jpg": "/Value_Education_Cell_Website/static/media/Tushar_Jadaun.1ab473a9785295fe96f1.jpg",
     "index.html": "/Value_Education_Cell_Website/index.html",
-    "main.8ce1259b.css.map": "/Value_Education_Cell_Website/static/css/main.8ce1259b.css.map",
+    "main.a636670a.css.map": "/Value_Education_Cell_Website/static/css/main.a636670a.css.map",
     "main.d1db27fc.js.map": "/Value_Education_Cell_Website/static/js/main.d1db27fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ce1259b.css",
+    "static/css/main.a636670a.css",
     "static/js/main.d1db27fc.js"
   ]
 }
