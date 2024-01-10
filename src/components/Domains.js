@@ -41,7 +41,7 @@ export default function Domains() {
   return (
     <div className='donainsclass flex flex-col items-center'>
         <br></br>
-        <h1 className='text-6xl '>Domains</h1>
+        <h1 className='text-6xl '>Our Domains</h1>
          <div className='domains'>
        { 
         data.map((element)=>{

@@ -99,11 +99,12 @@
 }
 
 .info{
-    height: 250px;
+    height: 350px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap:0px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 .slider{
     width: 600px;
@@ -145,14 +146,14 @@
 .subtitle{
     margin-top: 25px;
     border-top: 2px solid var(--text-color);
-    width:500px;
+    width:100%;
     height: 200px;
     font-size: 1.3rem;
     color: var(--text-color);
     padding-top: 10px;
 }
 
-.info button{
+.info a{
     background-color: var(--btncolor);
     cursor: pointer;
     border: 0px;
@@ -575,6 +576,11 @@ i{
     border-bottom-left-radius:15px ;
 }
 .contactform h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--background-color);
     background-color: inherit;
     color: inherit;
 }
