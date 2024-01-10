@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutus from "./images/aboutus.jpeg"
+import aboutus from "./images/vecell.jpg"
 export default function About() {
    
   return (
