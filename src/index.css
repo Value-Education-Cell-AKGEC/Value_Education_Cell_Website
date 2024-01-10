@@ -278,17 +278,23 @@ ul{
     height: 420px;
     padding: 20px;
     box-sizing: border-box;
-    background-color: var(--background-color);
-    border-radius: 10px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .card h1{
     font-size: 1.2rem;
     font-weight: bold;
+    background-color: greenyellow;
+    color: black;
 }
 
 .card p{
     text-align: justify;
     font-size: small;
+    background-color: greenyellow;
     line-height: 20px;
 }
 .card img{
@@ -305,7 +311,8 @@ ul{
 .activities{
     width: 100vw;
     height: fit-content;
-    background-color: var(--btncolor);
+    padding-top: 50px;
+    background-color: var(--background-color);
 }
 .headofactivity{
     width: 100%;
@@ -549,7 +556,7 @@ i{
     overflow: hidden;
 }
 .team{
-    padding-top: 100px;
+    padding-top:100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -557,7 +564,6 @@ i{
 .team h1{
     font-size: 1.5rem;
     color: var(--btncolor);
-    font-weight: bold;
 }
 .thirdyr{
     width: 100vw;
