@@ -23,12 +23,28 @@ let student3=[
             image:"./Student_images/Antriksh_Bansal.jpg",
         },
         {
+            name:"Aseem Jain",
+            email:"jainaseem2004@gmail.com",
+            domain:"Web Development",
+            linkedin:"https://www.linkedin.com/in/aseem-jain-258608252/",
+            instagram:"https://www.instagram.com/aseem2847/",
+            image:"./Student_images/Aseem_Jain.jpg",
+        },
+        {
             name:"Aviral Pandey",
             email:"hackthic@gmail.com",
             domain:"Sales and Marketing",
             linkedin:"https://www.linkedin.com/in/aviral-pandey-hackthic/",
             instagram:"https://www.instagram.com/iaviral_pandey/",
             image:"./Student_images/Aviral_Pandey.jpg",
+        },
+        {
+            name:"Kartik Ranaut",
+            email:"ranautk6@gmail.com",
+            domain:"Web Development",
+            linkedin:"https://www.linkedin.com/in/kartik-ranaut/",
+            instagram:"https://www.instagram.com/kartikranaut/",
+            image:"./Student_images/Kartik_Ranaut.jpg",
         },
         {
             name:"Palak Agarwal",

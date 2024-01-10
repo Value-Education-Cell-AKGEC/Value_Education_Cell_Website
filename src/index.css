@@ -568,7 +568,6 @@ i{
 
 .contact{
     display: flex;
-    
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -698,7 +697,7 @@ i{
     .info a{
         padding: 5px;
         border-radius: 3px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .slider{
         padding-top: 10px;
